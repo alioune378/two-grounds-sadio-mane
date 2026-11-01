@@ -1,0 +1,9 @@
+# Netlify: the Next.js runtime is detected automatically.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Review-date gate in scripts/check-integrity.mjs uses the editorial time zone.
+  TZ = "America/Toronto"

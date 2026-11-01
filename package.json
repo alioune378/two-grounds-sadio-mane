@@ -1,0 +1,27 @@
+{
+  "name": "two-grounds",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Two Grounds — independent concept homepage about Sadio Mané. Not affiliated with or endorsed by its subject.",
+  "scripts": {
+    "dev": "next dev",
+    "check": "node scripts/check-integrity.mjs",
+    "build": "node scripts/check-integrity.mjs && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}

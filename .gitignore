@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+preview/dist
+preview/artifact
+.env*
+!.env.example
